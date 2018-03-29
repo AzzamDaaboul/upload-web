@@ -35,7 +35,7 @@ class UploadController extends Controller
     {
 
 
-        $Random = str_random(5) . rand(1, 100);
+        $Random = strtolower(str_random(5) . rand(1, 100));
 
         $home_folder = "/var/www/custom-domains/".$Random;
 
@@ -226,7 +226,7 @@ var id='$Random';
 
 
 
-            return Redirect::to($Random.".custom.frankness.org");
+            return Redirect::to('http://'.$Random.".custom.frankness.org");
 
 
         } else {
