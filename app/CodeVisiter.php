@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 class CodeVisiter extends Model
 {
     public $timestamps = false;
-    protected $table = 'CodeVisiter';
+    protected $table = 'codevisiter';
 
   
 

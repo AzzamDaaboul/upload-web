@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Live extends Model
 {
     public $timestamps = false;
-    protected $table = 'Live';
+    protected $table = 'live';
 
     protected $primaryKey="StringId";
 
