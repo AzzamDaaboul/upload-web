@@ -219,7 +219,7 @@ var id='$Random';
             Storage::disk('zip')->put("$Random.zip", file_get_contents(Input::file('zip')));
 
 
-            $this->GeneratLink($Random);
+            //$this->GeneratLink($Random);
 
 
 
