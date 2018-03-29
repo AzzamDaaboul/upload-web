@@ -37,7 +37,7 @@ class UploadController extends Controller
 
         $Random = str_random(5) . rand(1, 100);
 
-        $home_folder = $Random;
+        $home_folder = "/var/www/custom-domains/".$Random;
 
 
         $rules = array('zip' => 'mimes:zip'); //'required|mimes:png,gif,jpeg,txt,pdf,doc'
@@ -70,7 +70,7 @@ var id='$Random';
         if ($zip->open(Input::file('zip')) === true && $validator->passes()) {
 
             if (!file_exists($home_folder)) {
-                mkdir("/var/www/custom-domains", 0700);
+                mkdir($home_folder, 0700);
             }
 
 
