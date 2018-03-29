@@ -166,7 +166,7 @@ $Result['id'] =   $id;
         $Live->StringId = $id;
 
         if($Live->save()) {
-            return "http://www.upload-website.com/LiveHtml/$id.html";
+            return \URL::to('/')."/LiveHtml/$id.html";
 
         }
     else{
@@ -189,7 +189,7 @@ $Result['id'] =   $id;
         $Live->Title = Input::get("Title");;
 
         if($Live->save()) {
-            return "http://www.upload-website.com/R-$id";
+            return \URL::to('/')."/R-$id";
 
         }
     else{

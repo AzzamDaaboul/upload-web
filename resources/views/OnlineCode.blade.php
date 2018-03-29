@@ -55,9 +55,9 @@
     <link rel="stylesheet" href="/css/responsive/responsive.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
-    <script src="http://www.upload-website.com/js/App.js"></script>
-    <link href="http://www.upload-website.com/css/materialize.min.css" rel="stylesheet"/>
-    <link href="http://www.upload-website.com/css/styleOnline.css" rel="stylesheet"/>
+    <script src="{{URL::to('/')}}/js/App.js"></script>
+    <link href="{{URL::to('/')}}/css/materialize.min.css" rel="stylesheet"/>
+    <link href="{{URL::to('/')}}/css/styleOnline.css" rel="stylesheet"/>
 </head>
 <body class="home" ng-app="App" ng-controller="Live">
 

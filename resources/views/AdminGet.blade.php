@@ -94,7 +94,7 @@ var app = angular.module('myApp', []);
      $scope.open = function (x) {
         
  
-         window.open("http://www.upload-website.com/"+x , '_blank' );
+         window.open("{{URL::to('/')}}"+x , '_blank' );
          
          
          

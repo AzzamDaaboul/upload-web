@@ -36,7 +36,7 @@
     position: absolute;
     left: 0;
     right: 0;
-    padding: 6px;" src="http://www.upload-website.com/images/logo.png"></a>
+    padding: 6px;" src="{{URL::to('/')}}images/logo.png"></a>
       </div>
     </div>
   </div>

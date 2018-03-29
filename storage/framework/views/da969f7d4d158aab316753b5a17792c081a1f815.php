@@ -1,7 +1,8 @@
 <html>
 <head>
     <title>upload your website Online Coding</title>
-    <base href="http://www.upload-website.com/">
+     <base href="{{URL::to('/')}}">
+
     <meta property="og:url" content="upload-website.com/Online"/>
     <meta property="og:type" content="article"/>
     <meta property="og:title"

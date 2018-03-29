@@ -1,7 +1,8 @@
 <html>
 <head>
     <title>upload your website Online Coding</title>
-    <base href="http://www.upload-website.com/">
+    <base href="{{URL::to('/')}}">
+
     <meta property="og:url" content="upload-website.com/Online"/>
     <meta property="og:type" content="article"/>
     <meta property="og:title"
@@ -11,7 +12,7 @@
 
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="http://www.upload-website.com/css/Online/jquery-ui.css">
+    <link rel="stylesheet" href="{{URL::to('/')}}css/Online/jquery-ui.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.19.0/codemirror.min.css">
     <link rel="stylesheet" href="https://codemirror.net/theme/ambiance.css">
     <link rel="stylesheet" href="/css/Online/simplescrollbars.css">
@@ -39,8 +40,8 @@
             </button>
             <a class="navbar-brand" href="/">
 
-                <img style="width: 175px; margin-left: 20px;" src="http://www.upload-website.com/images/footer-logo.png"
-                     alt="www.upload-website.com"></a>
+                <img style="width: 175px; margin-left: 20px;" src="{{URL::to('/')}}/images/footer-logo.png"
+                     alt="{{URL::to('/')}}"></a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
 
@@ -114,7 +115,7 @@
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
 <script type="text/javascript" src="//golden-layout.com/assets/js/goldenlayout.min.js"></script>
-<script src="http://www.upload-website.com/js/App.js"></script>
+<script src="{{URL::to('/')}}/js/App.js"></script>
 
 
 

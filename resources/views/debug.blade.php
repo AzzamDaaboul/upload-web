@@ -155,7 +155,7 @@
        
          <article class="col-sm-3 video_post postType3">
                     <div class="inner row m0">
-                        <a href="http://www.upload-website.com/{{$one->name}}"><div class="row screencast m0">
+                        <a href="{{URL::to('/')}}/{{$one->name}}"><div class="row screencast m0">
                             <img style="width:283px;height:209px" src="screenshot/{{$one->name}}.jpg" alt="" class="cast img-responsive">
                             <div class="play_btn"></div>
                              
@@ -184,7 +184,7 @@
                     
          <article class="col-sm-3 video_post postType3">
                     <div class="inner row m0">
-                        <a href="http://www.upload-website.com/{{$one->name}}"><div class="row screencast m0">
+                        <a href="{{URL::to('/')}}/{{$one->name}}"><div class="row screencast m0">
                             <img style="width:283px;height:209px" src="screenshot/{{$one->name}}.jpg" alt="" class="cast img-responsive">
                             <div class="play_btn"></div>
                              

@@ -2,14 +2,14 @@
 <html>
 <head>
     <title>Upload Website</title>
-    <link rel="stylesheet" href="http://www.upload-website.com/{{$id}}.css" type="text/css">
+    <link rel="stylesheet" href="{{URL::to('/')}}/{{$id}}.css" type="text/css">
 
 </head>
 <body>
 
 {!! $HTML !!}
 </body>
-<script src="http://www.upload-website.com/{{$id}}.js"></script>
+<script src="{{URL::to('/')}}/{{$id}}.js"></script>
 <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
                 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
