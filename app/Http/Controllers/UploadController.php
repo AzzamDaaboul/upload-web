@@ -71,6 +71,8 @@ var id='$Random';
 
             if (!file_exists($home_folder)) {
                 mkdir($home_folder, 0700);
+                mkdir($home_folder.'/public', 0700);
+                $home_folder=     $home_folder.'/public';
             }
 
 
@@ -224,7 +226,7 @@ var id='$Random';
 
 
 
-            return Redirect::to("http://$Random.".\URL::to('/'));
+            return Redirect::to($Random.".custom.frankness.org");
 
 
         } else {
