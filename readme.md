@@ -16,7 +16,7 @@ or you can use it like yourdomain.com/yourproject/....
 
 
 
-# instalation on ubuntu 
+# installation on ubuntu 
 
 ### 1- sites-available and sites-enable  
 give full permission to those two file 
