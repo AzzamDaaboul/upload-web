@@ -9,6 +9,7 @@
           content="upload website - Front End Developer Playground &amp; Code Editor in the Browser"/>
     <meta property="og:description" content="front end web development playground , share your code online"/>
     <meta property="og:image" content="http://upload-website.com/images/Online.PNG"/>
+		<title>{{ config('app.name') }} - {{ config('app.subtitle') }}</title>
 
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
