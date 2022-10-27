@@ -3,6 +3,7 @@
 <head>
     <title>Page Title</title>
     <link rel="stylesheet" href="{{URL::to('/')}}/LiveHtml/{{$id}}.css" type="text/css">
+		<title>{{ config('app.name') }} - {{ config('app.subtitle') }}</title>
 
 </head>
 <body>
