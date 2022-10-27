@@ -18,6 +18,7 @@
           content="upload-website , upload , upload-website.com , www.upload-website.com ,upload online,  file upload html ,html upload file, upload html ,html upload ,file html ,website free ,upload and share"/>
 
     <meta name="description" content="How Can you upload HTML website to the internet for FREE "/>
+		<title>{{ config('app.name') }} - {{ config('app.subtitle') }}</title>
 
     <!--Favicons-->
     <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
