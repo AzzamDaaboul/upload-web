@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Upload Website</title>
+		<title>{{ config('app.name') }} - {{ config('app.subtitle') }}</title>
     <link rel="stylesheet" href="{{URL::to('/')}}/{{$id}}.css" type="text/css">
 
 </head>
